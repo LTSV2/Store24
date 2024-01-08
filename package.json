@@ -1,0 +1,22 @@
+{
+  "name": "store24",
+  "version": "1.0.0",
+  "description": "This is store24 ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LTSV2/Store24.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LTSV2/Store24/issues"
+  },
+  "homepage": "https://github.com/LTSV2/Store24#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
