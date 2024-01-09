@@ -22,7 +22,7 @@ session_start();
           
         if($count == 1){ 
             header("Location: index.php");
-            echo "<h1><center> Login successful </center></h1>";  
+           // echo "<h1><center> Login successful </center></h1>";  
         }  
         else{  
             echo "<h1> Login failed. Invalid username password.</h1>";  
