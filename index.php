@@ -1,59 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here" />
-  <title>Stroe24/7</title>
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
- 
-  <!-- OWN CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="css/responsive-style.css"> -->
-</head>
-
-<body>
-  <!-- header design -->
-  <header>
-    <nav class="navbar navbar-expand-lg navigation-wrap">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img decoding="async" src="images/stror24.jpg" style="width: 172px;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-stream navbar-toggler-icon"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#explore-food">Explore Foods</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faq">FAQ</a>
-            </li>
-            <li><a class="main-btn" href="login.php">Login</a></li>
-            <!-- <li><button class="main-btn" style="background: blanchedalmond;"><?php echo date("Y-m-d");?></button></li> -->
-            <!-- <li><a class="main-btn"href="logout.php">Logout</a></li> -->
-            <li>
-              <a class="main-btn" href="login.php"></i> Logout</a>
-            </li>
-        </div>
-      </div>
-    </nav>
-  </header>
-   
+<?php include 'header.php'?>
   <!-- section-1 top-banner -->
   <section id="home">
     <div class="container-fluid px-0 top-banner">
@@ -356,43 +301,7 @@
      </div>
    </section>
 
-  <!-- section-9 footer-->
-  <footer id="footer">
-    <div class="footer py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <a class="footer-link" href="#">Register</a>
-            <a class="footer-link" href="#">Forum</a>
-            <a class="footer-link" href="#">Affiliate</a>
-            <a class="footer-link" href="#">FAQ</a>
-            <div class="footer-social pt-4 text-center">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
-              <a href="#"><i class="fab fa-dribbble"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="col-sm-12">
-            <div class="footer-copy">
-              <div class="copy-right text-center pt-5">
-                <p class="text-light">© 2021. Foodies. All rights reserved.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  
    
-
-  <!-- JS Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
-  <!-- own js -->
-  <script src="js/main.js"></script>
-</body>
-</html>
+<?php include 'footer.php'?>
 
